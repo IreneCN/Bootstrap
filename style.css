@@ -2,9 +2,23 @@ body {
 
 }
 
-div {
+/*div {
 	outline: 1px solid gray;
 	
 }
 
+*/
 
+.row {
+	
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */  /* obtained from: http://css-tricks.com/snippets/css/media-queries-for-standard-devices/*/
+@media only screen 
+and (max-width : 600px)  {
+ 	body {
+ 		background-color: red;
+ 	}
+}
